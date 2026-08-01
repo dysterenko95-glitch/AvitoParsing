@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: avito-tracker-bot
+    runtime: docker
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: PROXY_URL
+        sync: false
